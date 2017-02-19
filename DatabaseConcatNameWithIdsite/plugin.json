@@ -1,0 +1,13 @@
+{
+    "name": "DatabaseConcatNameWithIdsite",
+    "description": "change database connection name",
+    "version": "1",
+    "authors": [
+        {
+            "name": "The vikings team"
+        }
+    ],
+    "license": "Optimove",
+    "keywords": ["Database change"],
+    "homepage": "http://piwik.org"
+}
