@@ -33,6 +33,8 @@ class DatabaseConcatNameWithIdsite extends \Piwik\Plugin
      */
     public function concatDatabaseNamwWithIdsite(&$dbConfig){
         $dbConfig['dbname'] .= $_GET['idsite'];
+		$dbConfig['host'] =  'db'.;$_GET['idsite'].'local';
+		die(var_dump($dbConfig));
     }
 
 
