@@ -33,7 +33,7 @@ class DatabaseConcatNameWithIdsite extends \Piwik\Plugin
      */
     public function concatDatabaseNamwWithIdsite(&$dbConfig){
         $dbConfig['dbname'] .= '_'.$_GET['idsite'];
-		$dbConfig['host'] = 'optitrackSQLSrvr_location_'.$_GET['idsite'].'_.optimove.net';
+		$dbConfig['host'] = 'optitrackSQLSrvr_location_'.$_GET['idsite'].'.optimove.net';
 		
     }
 
